@@ -1,16 +1,42 @@
-.gridcardbg{
+.gridcardbg {
     background-color: #35116540;
     padding: 30px;
     border-radius: 20px;
     display: flex;
-      
+
     align-items: center;
 }
 
-.heading1{
+.heading1 {
     text-align: center;
     color: white;
     font-size: 3rem;
     font-weight: 700;
     padding-bottom: 30px;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .responsivenav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    .nav-image{
+        width: 150px;
+    }
 }
