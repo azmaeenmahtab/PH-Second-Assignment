@@ -39,4 +39,18 @@
     .nav-image{
         width: 150px;
     }
+
+    .hero-podcast-bg{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .hero-podcast-image{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .mainheading{
+        font-size: 40px;
+    }
 }

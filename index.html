@@ -33,21 +33,23 @@
 
 
     <!-- hero section -->
-    <div class="hidden bg-cover bg-center bg-no-repeat" style="background-image: url('assets/hero-bg.png');">
+    <div class="w-screen  bg-cover bg-center bg-no-repeat" style="background-image: url('assets/hero-bg.png');">
 
         <div class="py-25 text-center ">
             <!-- iamge div -->
-            <div class="bg-cover bg-center bg-no-repeat max-w-[350px] max-h-[350px] mx-auto flex justify-center items-center py-25"
+            <div class="hero-podcast-bg bg-cover bg-center bg-no-repeat max-w-[350px] max-h-[350px] mx-auto flex justify-center items-center py-25 relative"
                 style="background-image: url('assets/hero-circle.png');">
-                <img src="assets/microphone.png" alt="" class="max-w-[200px] max-h-[200px]">
+                <img src="assets/microphone.png" alt="" class="max-w-[200px] max-h-[200px] hero-podcast-image">
+
+                <p class="px-3 py-2 bg-[#00FF88] rounded-full font-bold absolute top-5 right-3" style="box-shadow: 0 0 20px #00FF88;">NEW</p>
             </div>
 
 
-            <h4 class="text-[60px] font-extrabold text-white">TechWave</h4>
-            <p class="text-white">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <h4 class="mainheading text-[60px] font-extrabold text-white">TechWave</h4>
+            <p class="text-white px-5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
             <!-- btn div -->
-            <div class="mx-auto max-w-[360px] flex flex-row justify-center items-center text-white py-5">
+            <div class="mx-auto max-w-[360px] flex flex-row gap-5 justify-center items-center text-white py-5">
                 <button class="px-3 rounded-full shadow-lg py-2 flex items-center gap-2"
                     style="background: linear-gradient(135deg, #ffea00 0%, #ff00ea 50%, #6a00ff 100%); border: 4px solid #1A0B2E;">
                     <img src="assets/spotify.png" alt=""> <span>Listen On Spotify</span>
