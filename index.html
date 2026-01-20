@@ -49,7 +49,7 @@
             <p class="text-white px-5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
             <!-- btn div -->
-            <div class="mx-auto max-w-[360px] flex flex-row gap-5 justify-center items-center text-white py-5">
+            <div class="mx-auto max-w-[360px] flex flex-row gap-5 justify-center items-center text-white py-5 herobtns">
                 <button class="px-3 rounded-full shadow-lg py-2 flex items-center gap-2"
                     style="background: linear-gradient(135deg, #ffea00 0%, #ff00ea 50%, #6a00ff 100%); border: 4px solid #1A0B2E;">
                     <img src="assets/spotify.png" alt=""> <span>Listen On Spotify</span>
@@ -154,12 +154,12 @@
 
 
     <!-- episode section -->
-    <section class="py-25 hidden">
+    <section class="py-25  ">
         <div class="max-w-[1200px] mx-auto px-5">
-            <h2 class="text-5xl font-bold text-white text-center mb-12">Featured Episodes</h2>
+            <h2 class="text-5xl font-bold text-white text-center mb-12 heading1">Featured Episodes</h2>
 
             <!-- cards div -->
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid grid-cols-3 gap-6 episode-grid">
                 <!-- Card 1 -->
                 <div class="bg-[#230E3D] rounded-2xl overflow-hidden">
                     <div class="  h-48 bg-cover bg-center flex items-center justify-center"
@@ -217,10 +217,10 @@
 
 
     <!-- host section -->
-    <section class="pb-25 hidden">
-        <h2 class="text-5xl font-bold text-white text-center mb-12">Meet The Host</h2>
+    <section class="pb-25  ">
+        <h2 class="text-5xl font-bold text-white text-center mb-12 heading1">Meet The Host</h2>
         <div class="max-w-[1200px] mx-auto px-5">
-            <div class="bg-[#230E3D] rounded-3xl p-12 flex items-center gap-12">
+            <div class="bg-[#230E3D] rounded-3xl p-12 flex items-center gap-12 hostresponsive">
                 <!-- div image -->
                 <div class="shrink-0">
                     <img src="assets/host.png" alt="Alex Kumar" class="w-48 h-48 rounded-full object-cover">
@@ -233,7 +233,7 @@
                         companies. Through TechWave, Alex shares insights from industry leaders and practical advice for
                         anyone looking to grow in tech.</p>
                     <!-- icons div -->
-                    <div class="flex gap-4">
+                    <div class="flex gap-4 hosticonsresponsive">
                         <div class="w-12 h-12 rounded-full border-2 border-white/30 flex items-center justify-center">
                             <img src="assets/linkedin.png" alt="LinkedIn" class="w-5 h-5">
                         </div>
@@ -254,13 +254,15 @@
 
 
     <!-- footer section -->
-    <footer class="py-20 hidden flex items-center justify-center bg-center bg-cover bg-no-repeat"
+    <footer class="py-20  flex items-center justify-center bg-center bg-cover bg-no-repeat"
         style="background-image: url('assets/footer-bg.png');">
         <div class="text-center">
-            <div class="max-w-[300px] mx-auto">
+            <div class="max-w-[300px] mx-auto nav-image1">
                 <img src="assets/TechWave.png" alt="TechWave" class="object-cover w-full mb-8">
             </div>
-            <div class="flex justify-center items-center gap-8 mb-6">
+
+            <!-- icons -->
+            <div class="flex justify-center items-center gap-8 mb-6 footericonsresponsive">
                 <div class="flex items-center gap-2">
                     <img src="assets/spotify.png" alt="Spotify" class="w-6 h-6">
                     <p class="text-white/60">Spotify</p>
@@ -278,7 +280,7 @@
                     <p class="text-white/60">Twitter</p>
                 </div>
             </div>
-            <p class="text-white/50 text-sm">© 2026 TechWave Podcast. All rights reserved.</p>
+            <p class="text-white/50 text-sm px-5">© 2026 TechWave Podcast. All rights reserved.</p>
         </div>
     </footer>
 </body>
