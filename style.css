@@ -67,6 +67,13 @@ section {
     animation: slideUp 0.6s ease-out;
 }
 
+.episode-card-animate:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
 .gridcardbg:hover {
     transform: translateY(-10px);
     transition: transform 0.3s ease;
@@ -112,6 +119,11 @@ button:hover {
 
     .nav-image {
         width: 150px;
+    }
+
+    .order-res{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     section {
