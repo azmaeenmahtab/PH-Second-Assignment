@@ -3,7 +3,8 @@
     padding: 30px;
     border-radius: 20px;
     display: flex;
-
+    padding-top: 25px;
+    padding-bottom: 25px;
     align-items: center;
 }
 
@@ -52,5 +53,25 @@
 
     .mainheading{
         font-size: 40px;
+    }
+
+    .gridlayout{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 250px;
+    }
+
+    .gridcard1{
+        grid-row: span 1;
+        grid-column: span 2;
+
+    }
+
+    .gridcard5{
+        grid-column: span 2;
+    }
+
+    .heading1{
+        font-size: 3rem;
     }
 }
